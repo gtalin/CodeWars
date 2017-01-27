@@ -3,6 +3,9 @@ function Graph(adjList) {
 	  return adjList;
 	else return {};
 }
+/*in actual graph would have this.adjList which gets updated
+and we would access graph.adjLit[node] and not graph[node]
+*/
 /*Abbreviated form of graph*/
 function dfsRec(graph,u,set){
 	if (set === undefined) {
